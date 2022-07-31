@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(59, 65, 70);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.css_watch{
+    width: fit-content;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.separator{
+    margin: -10px;
+    padding: 0px;
+}
+
+.watch_band_list li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.watch_band_list li{
+    height: 700px;
+}
+
+.watch_band_list li .band p{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing:20px;
+    color: whitesmoke;
+    padding:20px 0px 0px 0px;
+    margin: 10px;
+    font-family:"Consolas";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.watch_band_list li .band{
+    background-color: rgb(33, 35, 43);
+    border-radius: 5px;
+    filter: drop-shadow(-5px -5px 10px rgba(191, 191, 191, 0.7)) 
+    drop-shadow(10px 10px 5px rgba(16, 16, 16, 0.8));
+}
+
+.circle_back{
+    position:absolute;
+    background-color: rgb(33, 35, 43);
+    width: 22px;
+    height: 25px;
+    top: 453px;
+    margin-left: 10px;
+
+    transition:0.4s all;
+
+}
+
+
+.circle{
+    position:absolute;
+    
+    width: 43px;
+    height: 43px;
+    top: 440px;
+    border-radius: 50%;
+    background: rgba(16, 16, 16, 0.6);
+    box-shadow: 12px 12px 10px rgba(16, 16, 16, 0.9);
+
+    transform: scale(1.3);
+    transition:0.4s all;
+}
+
+.circle p{
+    width: fit-content;
+    margin: 10px 15px;
+    
+    color: whitesmoke;
+    font-family:"Consolas";
+    font-weight: bold;
+    font-size: 22px;
+}
